@@ -11,7 +11,7 @@ jobs:
 
     steps:
       -
-        uses: .github/workflows/reusable-workflow.yml
+        uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml
         with:
           config-path: "John Doe"
 
@@ -21,6 +21,6 @@ jobs:
 
     steps:
       -
-        uses: .github/workflows/reusable-workflow.yml
+        uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml
         with:
           config-path: "Jane Doe"
