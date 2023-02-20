@@ -1,6 +1,6 @@
 name: Use Reusable Workflow
 
-on:
+on: [ push ]
   workflow_dispatch:
 
 jobs:
