@@ -9,13 +9,3 @@ jobs:
     uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml@main
     with:
       config-path: "John Doe"
-
-  # do-it-again:
-
-  #   runs-on: ubuntu-latest
-
-  #   steps:
-  #     -
-  #       uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml@v1
-  #       with:
-  #         config-path: "Jane Doe"
