@@ -6,14 +6,9 @@ on:
 jobs:
 
   do-it:
-
-    runs-on: ubuntu-latest
-
-    steps:
-      -
-        uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml@main
-        with:
-          config-path: "John Doe"
+    uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml@main
+    with:
+      config-path: "John Doe"
 
   # do-it-again:
 
