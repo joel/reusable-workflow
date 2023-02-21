@@ -1,6 +1,7 @@
 name: Use Reusable Workflow
 
 on:
+  push:
   workflow_dispatch:
 
 jobs:
