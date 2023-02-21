@@ -9,4 +9,4 @@ jobs:
   do-it:
     uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml@main
     with:
-      config-path: "John Doe"
+      who-to-greet: "John Doe"
