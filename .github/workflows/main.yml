@@ -10,3 +10,9 @@ jobs:
     uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml@main
     with:
       who-to-greet: "John Doe"
+
+    steps:
+
+      -
+        run: echo Hello World
+        shell: bash
