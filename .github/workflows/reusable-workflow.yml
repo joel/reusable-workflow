@@ -1,11 +1,6 @@
 name: The Reusable Workflow
 
-on:
-  workflow_call:
-    inputs:
-      who-to-greet:
-        required: true
-        type: string
+on: [workflow_call]
 
 jobs:
 
@@ -16,10 +11,5 @@ jobs:
     steps:
 
       -
-        run: echo Hello ${{ inputs.who-to-greet }}.
-        shell: bash
-
-      -
-        id: random-number-generator
-        run: echo "random-number=$(echo $RANDOM)" >> $GITHUB_OUTPUT
+        run: echo Hello World!
         shell: bash

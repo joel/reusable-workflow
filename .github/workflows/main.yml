@@ -1,8 +1,6 @@
 name: Use Reusable Workflow
 
-on:
-  push:
-  workflow_dispatch:
+on: [push]
 
 jobs:
 
@@ -19,5 +17,3 @@ jobs:
   do-it:
     needs: build
     uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml@main
-    with:
-      who-to-greet: "John Doe"
