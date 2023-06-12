@@ -6,7 +6,18 @@ on:
 
 jobs:
 
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      -
+        run: echo Hello World!
+        shell: bash
+
   do-it:
+    needs: build
     uses: joel/reusable-workflow/.github/workflows/reusable-workflow.yml@main
     with:
       who-to-greet: "John Doe"
